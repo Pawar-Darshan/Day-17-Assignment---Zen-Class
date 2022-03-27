@@ -1,0 +1,20 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+#countdown{
+    margin: auto;
+    margin-top: 10px;
+text-justify: auto;
+font-size: 20px;
+font: bold;
+font-style: oblique;
+color: brown;
+border: solid 2px black;
+height: auto;
+width: 250px;
+border-radius: 5px;
+text-align: center;
+position: static;
+}

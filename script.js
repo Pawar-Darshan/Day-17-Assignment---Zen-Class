@@ -1,0 +1,11 @@
+setTimeout(function () { document.getElementById("countdown").innerHTML = '10 seconds' }, 1000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '9 seconds' }, 2000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '8 seconds' }, 3000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '7 seconds' }, 4000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '6 seconds' }, 5000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '5 seconds' }, 6000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '4 seconds' }, 7000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '3 seconds' }, 8000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '2 seconds' }, 9000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '1 seconds' }, 10000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = 'Happy Independence Day' }, 11000);

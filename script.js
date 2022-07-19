@@ -8,4 +8,24 @@ setTimeout(function () { document.getElementById("countdown").innerHTML = '4 sec
 setTimeout(function () { document.getElementById("countdown").innerHTML = '3 seconds' }, 8000);
 setTimeout(function () { document.getElementById("countdown").innerHTML = '2 seconds' }, 9000);
 setTimeout(function () { document.getElementById("countdown").innerHTML = '1 seconds' }, 10000);
-setTimeout(function () { document.getElementById("countdown").innerHTML = 'Happy Independence Day' }, 11000);
+setTimeout(function () { document.getElementById("countdown").innerHTML = '<h1>🥳🥳Happy Independence Day🥳🥳</h1>' }, 11000);
+
+/*Same function with recursive method with the help of setTimeout:
+let divEle = document.createElement("div");
+divEle.id = "status";
+document.body.appendChild(divEle);
+
+function countDown(secs, elem) {
+  var element = document.getElementById(elem);
+  element.innerHTML = `Lets count with me... ${secs} seconds`;
+  if (secs < 1) {
+    clearTimeout(timer);
+    element.innerHTML = `<h1>🥳🥳Happy Independence Day🥳🥳</h1>`;
+  }
+  secs--;
+
+  var timer = setTimeout("countDown(" + secs + ',"' + elem + '")', 1000);
+}
+
+countDown(10, "status");
+*/
